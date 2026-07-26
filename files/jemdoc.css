@@ -13,7 +13,7 @@ body {
 }
 */
 html {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 body { 
@@ -30,6 +30,7 @@ body {
   padding-top: 10px;
   padding-bottom: 30px;
   max-width: 960px;
+  box-shadow: 0 0 0 1px #e6e6e6;
 }
 
 #layout-menu {
@@ -517,10 +518,15 @@ table.imgtable, table.imgtable td {
 }
 
 @media (max-width: 680px) {
+    html {
+        background-color: #ffffff;
+    }
+
     body {
         margin-top: 0;
         margin-bottom: 0;
         padding: 20px;
+        box-shadow: none;
     }
 
     #layout-content {
